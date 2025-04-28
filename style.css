@@ -1,0 +1,61 @@
+/* Custom styles for the Medical Diagnostic Agent UI */
+
+/* Confidence score colors */
+.confidence-high {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.confidence-medium {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.confidence-low {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Symptom category styling */
+.category-header {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #3498db;
+}
+
+/* Improved expander styling */
+.st-expander {
+    border-radius: 8px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+/* Dark mode specific styling */
+.dark-mode .st-expander {
+    background-color: #2d2d2d;
+    border-color: #444;
+}
+
+.dark-mode .category-header {
+    color: #3498db;
+}
+
+/* Body map styling */
+.body-map-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+    .stColumn > div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .st-bq {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
