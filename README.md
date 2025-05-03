@@ -1,15 +1,9 @@
 # med_diagnostic_agent
-# Enhanced Medical Diagnostic Agent System
-
-![Medical Diagnostic Agent Banner](https://via.placeholder.com/1200x300?text=Medical+Diagnostic+Agent+System)
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/your-username/medical-diagnostic-agent/main/app.py)
 
 ## Overview
 
 The Medical Diagnostic Agent System is an AI-powered tool that helps diagnose medical conditions based on patient-reported symptoms. The system uses a best-first search algorithm to navigate through a knowledge base of symptoms and conditions, providing potential diagnoses with confidence levels and explanations.
 
-![Demo Screenshot](https://via.placeholder.com/800x500?text=Enhanced+Medical+Diagnostic+Agent+Demo)
 
 ## Features
 
@@ -32,7 +26,7 @@ The Medical Diagnostic Agent System is an AI-powered tool that helps diagnose me
 
 ## Try It Live
 
-You can try the live demo here: [Medical Diagnostic Agent Demo](https://share.streamlit.io/your-username/medical-diagnostic-agent/main/app.py)
+You can try the live demo here: 
 
 ## Installation
 
@@ -58,7 +52,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The application will open in your default web browser at http://localhost:8501.
 
 ## How It Works
 
@@ -129,13 +122,8 @@ medical-diagnostic-agent/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
 - This project was developed as part of ITEC 781: Artificial Intelligence and Informatics I
-- Thanks to [Your Professor's Name] for guidance and feedback
-
-## Author
-
-<!-- [Your Name](https://github.com/your-username) -->
